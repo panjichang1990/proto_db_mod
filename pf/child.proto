@@ -12,7 +12,7 @@ service ChildServer {
 }
 
 message NoRealRegReq{
-    string cps=1;
+    repeated  int32 cps=1;
     string begin =2;
     string end = 3;
 }
